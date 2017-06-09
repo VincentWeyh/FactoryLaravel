@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    HELLO
+                    JE SUIS UN NOUVEAU TITRE
                 </div>
 
                 <div class="links">
