@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  triggers {
+    pollSCM('* * * * *')
+  }
   stages {
     stage('Build') {
       steps {
@@ -16,8 +19,5 @@ pipeline {
         sh 'rocketeer deploy'
       }
     }
-  }
-  triggers {
-    pollSCM('* * * * *')
   }
 }
