@@ -1,0 +1,133 @@
+20170608150212
+20170608150908
+/usr/bin/git
+/usr/bin/git
+$ /usr/bin/git clone "https://Soleet:1337Ftcctfftc@github.com/VincentWeyh/FactoryLaravel" "/home/www/FactoryLaravel/releases/20170608151108" --branch="master" --depth="1"
+/usr/bin/git clone "https://Soleet:1337Ftcctfftc@github.com/VincentWeyh/FactoryLaravel" "/home/www/FactoryLaravel/releases/20170608151108" --branch="master" --depth="1"
+Cloning into '/home/www/FactoryLaravel/releases/20170608151108'...
+/usr/bin/git
+/usr/bin/git
+$ cd /home/www/FactoryLaravel/releases/20170608151108
+$ /usr/bin/git submodule update --init --recursive
+cd /home/www/FactoryLaravel/releases/20170608151108
+/usr/bin/git submodule update --init --recursive
+
+
+/usr/local/bin/composer
+$ cd /home/www/FactoryLaravel/releases/20170608151108
+$ /usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+cd /home/www/FactoryLaravel/releases/20170608151108
+/usr/local/bin/composer install --no-interaction --no-dev --prefer-dist
+Loading composer repositories with package information
+Installing dependencies from lock file
+Package operations: 31 installs, 0 updates, 0 removals
+  - Installing doctrine/inflector (v1.1.0): Loading from cache
+  - Installing erusev/parsedown (1.6.2): Loading from cache
+  - Installing jakub-onderka/php-console-color (0.1): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.3.0): Loading from cache
+  - Installing symfony/var-dumper (v3.3.2): Loading from cache
+  - Installing psr/log (1.0.2): Loading from cache
+  - Installing symfony/debug (v3.3.2): Loading from cache
+  - Installing symfony/console (v3.3.2): Loading from cache
+  - Installing nikic/php-parser (v3.0.5): Loading from cache
+  - Installing jakub-onderka/php-console-highlighter (v0.3.2): Loading from cache
+  - Installing dnoegel/php-xdg-base-dir (0.1): Loading from cache
+  - Installing psy/psysh (v0.8.6): Loading from cache
+  - Installing vlucas/phpdotenv (v2.4.0): Loading from cache
+  - Installing symfony/css-selector (v3.3.2): Loading from cache
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.0): Loading from cache
+  - Installing symfony/routing (v3.3.2): Loading from cache
+  - Installing symfony/process (v3.3.2): Loading from cache
+  - Installing symfony/http-foundation (v3.3.2): Loading from cache
+  - Installing symfony/event-dispatcher (v3.3.2): Loading from cache
+  - Installing symfony/http-kernel (v3.3.2): Loading from cache
+  - Installing symfony/finder (v3.3.2): Loading from cache
+  - Installing swiftmailer/swiftmailer (v5.4.8): Loading from cache
+  - Installing paragonie/random_compat (v2.0.10): Loading from cache
+  - Installing ramsey/uuid (3.6.1): Loading from cache
+  - Installing symfony/translation (v3.3.2): Loading from cache
+  - Installing nesbot/carbon (1.22.1): Loading from cache
+  - Installing mtdowling/cron-expression (v1.2.0): Loading from cache
+  - Installing monolog/monolog (1.22.1): Loading from cache
+  - Installing league/flysystem (1.0.40): Loading from cache
+  - Installing laravel/framework (v5.4.24): Loading from cache
+  - Installing laravel/tinker (v1.0.1): Loading from cache
+Generating optimized autoload files
+> Illuminate\Foundation\ComposerScripts::postInstall
+> php artisan optimize
+Generating optimized class loader
+The compiled services file has been removed.
+
+$ cd /home/www/FactoryLaravel/releases/20170608151108
+$ npm install
+cd /home/www/FactoryLaravel/releases/20170608151108
+npm install
+bash: npm: command not found
+
+
+$ rm -rf /home/www/FactoryLaravel/releases/20170608151108/storage/logs
+rm -rf /home/www/FactoryLaravel/releases/20170608151108/storage/logs
+
+$ ln -s /home/www/FactoryLaravel/shared/storage/logs /home/www/FactoryLaravel/releases/20170608151108/storage/logs-temp
+$ mv -Tf /home/www/FactoryLaravel/releases/20170608151108/storage/logs-temp /home/www/FactoryLaravel/releases/20170608151108/storage/logs
+ln -s /home/www/FactoryLaravel/shared/storage/logs /home/www/FactoryLaravel/releases/20170608151108/storage/logs-temp
+mv -Tf /home/www/FactoryLaravel/releases/20170608151108/storage/logs-temp /home/www/FactoryLaravel/releases/20170608151108/storage/logs
+
+$ cd /home/www/FactoryLaravel/releases/20170608151108
+$ chmod -R 755 /home/www/FactoryLaravel/releases/20170608151108/app/database/production.sqlite
+$ chmod -R g+s /home/www/FactoryLaravel/releases/20170608151108/app/database/production.sqlite
+$ chown -R www-data:www-data /home/www/FactoryLaravel/releases/20170608151108/app/database/production.sqlite
+cd /home/www/FactoryLaravel/releases/20170608151108
+chmod -R 755 /home/www/FactoryLaravel/releases/20170608151108/app/database/production.sqlite
+chmod -R g+s /home/www/FactoryLaravel/releases/20170608151108/app/database/production.sqlite
+chown -R www-data:www-data /home/www/FactoryLaravel/releases/20170608151108/app/database/production.sqlite
+chmod: cannot access '/home/www/FactoryLaravel/releases/20170608151108/app/database/production.sqlite': No such file or directory
+$ cd /home/www/FactoryLaravel/releases/20170608151108
+$ chmod -R 755 /home/www/FactoryLaravel/releases/20170608151108/storage
+$ chmod -R g+s /home/www/FactoryLaravel/releases/20170608151108/storage
+$ chown -R www-data:www-data /home/www/FactoryLaravel/releases/20170608151108/storage
+cd /home/www/FactoryLaravel/releases/20170608151108
+chmod -R 755 /home/www/FactoryLaravel/releases/20170608151108/storage
+chmod -R g+s /home/www/FactoryLaravel/releases/20170608151108/storage
+chown -R www-data:www-data /home/www/FactoryLaravel/releases/20170608151108/storage
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/app/public/.gitignore': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/app/public': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/app/.gitignore': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/app': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/cache/.gitignore': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/cache': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/.gitignore': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/views/.gitignore': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/views': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/testing/.gitignore': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/testing': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/sessions/.gitignore': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework/sessions': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/framework': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage/logs': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/storage': Operation not permitted
+$ cd /home/www/FactoryLaravel/releases/20170608151108
+$ chmod -R 755 /home/www/FactoryLaravel/releases/20170608151108/public
+$ chmod -R g+s /home/www/FactoryLaravel/releases/20170608151108/public
+$ chown -R www-data:www-data /home/www/FactoryLaravel/releases/20170608151108/public
+cd /home/www/FactoryLaravel/releases/20170608151108
+chmod -R 755 /home/www/FactoryLaravel/releases/20170608151108/public
+chmod -R g+s /home/www/FactoryLaravel/releases/20170608151108/public
+chown -R www-data:www-data /home/www/FactoryLaravel/releases/20170608151108/public
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/robots.txt': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/css/app.css': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/css': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/web.config': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/.htaccess': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/favicon.ico': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/index.php': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/js/app.js': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public/js': Operation not permitted
+chown: changing ownership of '/home/www/FactoryLaravel/releases/20170608151108/public': Operation not permitted
+$ ln -s /home/www/FactoryLaravel/releases/20170608151108 /home/www/FactoryLaravel/current-temp
+$ mv -Tf /home/www/FactoryLaravel/current-temp /home/www/FactoryLaravel/current
+ln -s /home/www/FactoryLaravel/releases/20170608151108 /home/www/FactoryLaravel/current-temp
+mv -Tf /home/www/FactoryLaravel/current-temp /home/www/FactoryLaravel/current
+
+|=> Successfully deployed release 20170608151108
+|=> No releases to prune from the server
