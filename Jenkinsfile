@@ -16,5 +16,10 @@ pipeline {
         sh 'rocketeer deploy'
       }
     }
+    stage('Start server') {
+      steps {
+        sh 'php artisan serve'
+      }
+    }
   }
 }
