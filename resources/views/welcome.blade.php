@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    NEW NEW LARAVEL
+                    HELLO
                 </div>
 
                 <div class="links">
