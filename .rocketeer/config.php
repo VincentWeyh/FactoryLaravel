@@ -39,7 +39,7 @@ return [
     'connections'      => [
         'production' => [
             'host'      => '192.168.33.11',
-            'username'  => 'soleet',
+            'username'  => 'ubuntu',
             'password'  => 'Ftcctfftc',
             'key'       => '',
             'keyphrase' => '',
