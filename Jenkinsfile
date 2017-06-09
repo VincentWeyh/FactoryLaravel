@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        sh 'sudo rocketeer deploy'
+        sh 'rocketeer deploy'
       }
     }
   }
